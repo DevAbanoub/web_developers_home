@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <title>Google Search Engine</title>
+    <style>
+    * {margin:0;}
+    body{width:100%;padding-bottom:5px;}
+    a {text-decoration: none;}
+    h2 {font: 15px 'trebuchet MS', 'lucida sans';font-weight:600;}
+    .go {margin-right:auto;margin-left:auto;margin-top:15px;margin-bottom:15px;width:90%;}
+    ol {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    }
+    ol a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+    }
+    ol a:hover{
+    background: #eee;
+    }
+    ol a:hover:before{
+    transform: rotate(360deg);
+    }
+    ol a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+    }
+    </style>
+</head>
+<body>
+<script>
+  (function() {
+    var cx = 'partner-pub-4971969455307153:5307178480';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class='go'>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
+<h2>Important Websites for Web Developers:</h2>
+<ol>
+    <li><a href="https://www.w3schools.com/">w3schools</a></li>
+    <li><a href="https://github.com/">Github</a></li>
+    <li><a href="https://stackoverflow.com/">StackOverflow</a></li>
+    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+    <li><a href="https://www.webdesignernews.com/">Web Designer News</a></li>
+    <li><a href="https://uxmovement.com/">UX Movement</a></li>
+    <li><a href="https://www.webdesignerdepot.com/">Wed Designer Depot</a></li>
+    <li><a href="https://www.codeproject.com/">Code Project</a></li>
+    <li><a href="https://dzone.com/">D Zone</a></li>
+    <li><a href="https://codex.wordpress.org/Main_Page">WordPress Codex</a></li>
+    <li><a href="http://php.net/">PHP</a></li>
+    <li><a href="https://www.tutorialspoint.com/index.htm">Tutorials Point</a></li>
+    <li><a href="https://www.geeksforgeeks.org/">Geeks for Geeks</a></li>
+    <li><a href="https://codepen.io/">codepen.io</a></li>
+    <li><a href="https://developers.google.com/web/">Google Web Developers</a></li>
+    <li><a href="https://web.dev/">Web.dev</a></li>
+    <li><a href="https://www.youtube.com/channel/UClKO7be7O9cUGL94PHnAeOA">Google Design Youtube Channel</a></li>
+    <li><a href="https://www.youtube.com/channel/UCXPBsjgKKG2HqsKBhWA4uQw">The AMP Channel</a></li>
+    <li><a href="https://www.youtube.com/user/ChromeDevelopers">Google Chrome Developers</a></li>
+    <li><a href="https://medium.com">Medium</a></li>
+    <li><a href="https://developer.mozilla.org">Mozilla Developer</a></li>
+    <li><a href="https://www.w3.org/">W3C</a></li>
+    <li><a href="https://msdn.microsoft.com/en-us/magazine">MS Developer Network</a></li>
+    <li><a href="https://www.abanoubhanna.com">Abanoub Hanna</a></li>
+</ol>
+</body>
+</html>
